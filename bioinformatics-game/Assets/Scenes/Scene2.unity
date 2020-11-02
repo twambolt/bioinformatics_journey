@@ -1044,6 +1044,11 @@ PrefabInstance:
       propertyPath: m_textInfo.pageCount
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1018077192000716921, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1049341486863541785, guid: fd7f90be81af140b0baac246602b6075,
         type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1107,6 +1112,11 @@ PrefabInstance:
     - target: {fileID: 1273958441150701533, guid: fd7f90be81af140b0baac246602b6075,
         type: 3}
       propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1325703773326307927, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1393408502504616225, guid: fd7f90be81af140b0baac246602b6075,
@@ -1273,6 +1283,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Animal JE (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2540463351940004496, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30.800049
+      objectReference: {fileID: 0}
+    - target: {fileID: 2662798748405742013, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2759007031365056574, guid: fd7f90be81af140b0baac246602b6075,
         type: 3}
@@ -1577,6 +1597,11 @@ PrefabInstance:
     - target: {fileID: 3833219987969976673, guid: fd7f90be81af140b0baac246602b6075,
         type: 3}
       propertyPath: m_textInfo.pageCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4028061443384842038, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4145825105212143742, guid: fd7f90be81af140b0baac246602b6075,
@@ -1983,6 +2008,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.pageCount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465176369206289520, guid: fd7f90be81af140b0baac246602b6075,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30.800049
       objectReference: {fileID: 0}
     - target: {fileID: 6539610682610884497, guid: fd7f90be81af140b0baac246602b6075,
         type: 3}

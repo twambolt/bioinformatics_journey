@@ -5450,7 +5450,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19, y: 145.26318}
+  m_AnchoredPosition: {x: -19, y: 93.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3999412933706083595
@@ -8383,7 +8383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &5361237378449447971
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8395,11 +8395,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.95, y: 0.95, z: 1}
   m_Children:
-  - {fileID: 5256973414045341195}
+  - {fileID: 3622413681034877025}
   - {fileID: 46834934283282449}
   - {fileID: 2540463351940004496}
   - {fileID: 7807169261049960981}
-  - {fileID: 3622413681034877025}
+  - {fileID: 5256973414045341195}
   - {fileID: 392268966286100117}
   - {fileID: 6914181865256883155}
   - {fileID: 9107241727308519198}
@@ -8850,7 +8850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1256171001681844041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9950,7 +9950,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -115, y: 145.26318}
+  m_AnchoredPosition: {x: -115, y: 93.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7088026950993451745
@@ -10617,14 +10617,14 @@ RectTransform:
   m_GameObject: {fileID: 4585582423428730604}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 6.5, y: 3.5, z: 1}
+  m_LocalScale: {x: 6.5, y: 2.8300452, z: 1}
   m_Children: []
   m_Father: {fileID: 5361237378449447971}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 20}
+  m_AnchoredPosition: {x: 0, y: -11}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5370801368533157168
@@ -11342,7 +11342,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 255, y: 145.26318}
+  m_AnchoredPosition: {x: 255, y: 93.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1933155541040565006
@@ -11944,7 +11944,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163, y: 145.26318}
+  m_AnchoredPosition: {x: 163, y: 93.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1947972563434878003
@@ -12357,7 +12357,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 73, y: 145.26318}
+  m_AnchoredPosition: {x: 73, y: 93}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3253946431935722554
@@ -12524,10 +12524,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
+  m_text: 'Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Proin lacinia bibendum mauris, ac luctus arcu tincidunt ut. Aliquam ultrices
-    mi non blandit interdum. Praesent ultrices nisl quis faucibus malesuada. Cras
-    non auctor velit.
+    mi non blandit interdum. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -12536,8 +12535,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284859721
-  m_fontColor: {r: 0.28627452, g: 0.7725491, b: 0.39607847, a: 1}
+    rgba: 4279307271
+  m_fontColor: {r: 0.027450982, g: 0.04705883, b: 0.06666667, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -12593,15 +12592,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 58.57171, y: 0, z: -423.4006, w: -32.61871}
+  m_margin: {x: 58.57171, y: 23.838467, z: -423.4006, w: -32.61871}
   m_textInfo:
     textComponent: {fileID: 2336269243935819157}
-    characterCount: 250
+    characterCount: 180
     spriteCount: 0
-    spaceCount: 36
-    wordCount: 37
+    spaceCount: 27
+    wordCount: 27
     linkCount: 0
-    lineCount: 4
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -13535,8 +13534,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4284077643
-  m_fontColor: {r: 0.29703632, g: 0.8396226, b: 0.35067603, a: 1}
+    rgba: 4280345611
+  m_fontColor: {r: 0.04650232, g: 0.8962264, b: 0.12654887, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13967,7 +13966,7 @@ RectTransform:
   m_Children:
   - {fileID: 6187302826424343346}
   m_Father: {fileID: 5361237378449447971}
-  m_RootOrder: 0
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -16277,7 +16276,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 20}
-  m_SizeDelta: {x: 100, y: 100}
+  m_SizeDelta: {x: 75, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8159099304777750062
 CanvasRenderer:
@@ -17224,7 +17223,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -206, y: 145.26318}
+  m_AnchoredPosition: {x: -206, y: 93.00002}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1763901840351428801
@@ -20407,10 +20406,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
+  m_text: 'Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
     elit. Proin lacinia bibendum mauris, ac luctus arcu tincidunt ut. Aliquam ultrices
-    mi non blandit interdum. Praesent ultrices nisl quis faucibus malesuada. Cras
-    non auctor velit.
+    mi non blandit interdum. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -20476,15 +20474,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 58.57171, y: 0, z: -423.4006, w: -32.61871}
+  m_margin: {x: 58.57171, y: 21.03395, z: -423.4006, w: -32.61871}
   m_textInfo:
     textComponent: {fileID: 5311158200958470443}
-    characterCount: 250
+    characterCount: 180
     spriteCount: 0
-    spaceCount: 36
-    wordCount: 37
+    spaceCount: 27
+    wordCount: 27
     linkCount: 0
-    lineCount: 4
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
