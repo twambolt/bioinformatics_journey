@@ -4,26 +4,35 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    public GameObject playerCamera;
+    public Animator anim;
+    Rigidbody rb;
+
 
     public float movementSpeed = 3;
     public float jumpForce = 300;
     public float timeBeforeNextJump = 1.2f;
     private float canJump = 0f;
+    public bool canMove;
+    public bool isOccupied;
 
-    public GameObject playerCamera;
-    Animator anim;
-    Rigidbody rb;
+    
     
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody>();
         playerCamera = GameObject.FindGameObjectWithTag("MainCamera");
+        canMove = true;
     }
 
     void Update()
     {
-        ControllPlayer();
+        if (canMove)
+        {
+            ControllPlayer();
+        }
+        
     }
 
     void ControllPlayer()
@@ -42,11 +51,11 @@ public class PlayerController : MonoBehaviour
         if (movement != Vector3.zero)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(myTurnedInputs), 0.15f);
-            anim.SetInteger("Walk", 1);
+            anim.SetBool("Run", true);
         }
         else
         {
-            anim.SetInteger("Walk", 0);
+            anim.SetBool("Run", false);
         }
 
         transform.Translate(myTurnedInputs * movementSpeed * Time.deltaTime, Space.World);
