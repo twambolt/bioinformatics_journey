@@ -116,6 +116,7 @@ GameObject:
   - component: {fileID: 3355679808423152994}
   - component: {fileID: 9076276990646680424}
   - component: {fileID: 1367625700607754217}
+  - component: {fileID: 1940637936}
   m_Layer: 0
   m_Name: WorkStation
   m_TagString: Untagged
@@ -166,6 +167,8 @@ MonoBehaviour:
   inComputerRange: 0
   computerPages: []
   completed: 00000000
+  dataSelect: 0
+  algSelect: 0
 --- !u!136 &1367625700607754217
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -180,6 +183,25 @@ CapsuleCollider:
   m_Height: 2.3320384
   m_Direction: 1
   m_Center: {x: -0.9012122, y: -0.024901152, z: -2.2628963}
+--- !u!114 &1940637936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355679808423152995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 467bb3c46e3034be4b3acacbb2cab5f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DnaHomeDisplay: {fileID: 0}
+  CompHomeDisplay: {fileID: 0}
+  CalcDisplay: {fileID: 0}
+  compController: {fileID: 9076276990646680424}
+  test: {fileID: 0}
+  algSelect: -1
+  dataSelect: -1
 --- !u!1 &5223598814788074214
 GameObject:
   m_ObjectHideFlags: 0

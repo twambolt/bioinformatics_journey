@@ -20,15 +20,24 @@ public class ComputerController : MonoBehaviour
     public GameObject[] computerPages;
 
     public bool[] completed = new bool[4];
+
+    public int dataSelect;
+    public int algSelect;
+
+
     // Start is called before the first frame update
     void Start()
     {
+
+        dataSelect = 0;
+        algSelect = 0;
+
         inComputerRange = false;
         computerPages = GameObject.FindGameObjectsWithTag("CompUI");
-        completed[0] = false;
-        completed[1] = false;
-        completed[2] = false;
-        completed[3] = false;
+        completed[0] = false; // Build Morph
+        completed[1] = false; // DNA 
+        completed[2] = false; // AA
+        completed[3] = false; // Quiz
     }
 
     // Update is called once per frame
@@ -57,8 +66,7 @@ public class ComputerController : MonoBehaviour
         if (inComputerRange && Input.GetKeyDown("escape"))
         {
             foreach (GameObject page in computerPages)
-                page.SetActive(false);
-
+                page.SetActive(false); // not working 100%
 
             player.isOccupied = false;
             player.canMove = true;
@@ -78,6 +86,18 @@ public class ComputerController : MonoBehaviour
     {
         interactTip.SetActive(false);
         inComputerRange = false;
+    }
+
+
+
+    public void HandleDataChange(int value)
+    {
+        dataSelect = value;
+    }
+
+    public void HandleAlgChange(int value)
+    {
+        algSelect = value;
     }
 
 }

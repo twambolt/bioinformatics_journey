@@ -15,7 +15,6 @@ public class PlayerController : MonoBehaviour
     private float canJump = 0f;
     public bool canMove;
     public bool isOccupied;
-
     
     
     void Start()
