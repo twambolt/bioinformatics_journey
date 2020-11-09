@@ -117,6 +117,7 @@ GameObject:
   - component: {fileID: 9076276990646680424}
   - component: {fileID: 1367625700607754217}
   - component: {fileID: 1940637936}
+  - component: {fileID: 4170800503720781006}
   m_Layer: 0
   m_Name: WorkStation
   m_TagString: Untagged
@@ -200,8 +201,27 @@ MonoBehaviour:
   CalcDisplay: {fileID: 0}
   compController: {fileID: 9076276990646680424}
   test: {fileID: 0}
-  algSelect: -1
-  dataSelect: -1
+  dataSelect: 0
+  algSelect: 0
+--- !u!114 &4170800503720781006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3355679808423152995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31dad93ab644341e9a9b1d1433a0f53d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AaHomeDisplay: {fileID: 0}
+  CompHomeDisplay: {fileID: 0}
+  CalcDisplay: {fileID: 0}
+  compController: {fileID: 9076276990646680424}
+  test: {fileID: 0}
+  dataSelect: 0
+  algSelect: 0
 --- !u!1 &5223598814788074214
 GameObject:
   m_ObjectHideFlags: 0

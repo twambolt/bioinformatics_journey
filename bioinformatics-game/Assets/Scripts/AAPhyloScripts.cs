@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DnaPhyloScripts : MonoBehaviour
+public class AAPhyloScripts : MonoBehaviour
 {
-    public GameObject DnaHomeDisplay;
+    public GameObject AaHomeDisplay;
     public GameObject CompHomeDisplay;
     public GameObject CalcDisplay;
     public ComputerController compController;
@@ -15,7 +15,7 @@ public class DnaPhyloScripts : MonoBehaviour
 
     public int dataSelect;
     public int algSelect;
-    
+
 
 
     // Start is called before the first frame update
@@ -32,15 +32,15 @@ public class DnaPhyloScripts : MonoBehaviour
         viewed[5] = false;
     }
 
-    public void BackButtonDNAHome() //back to computer home
+    public void BackButtonAaHome() //back to computer home
     {
-        DnaHomeDisplay.SetActive(false);
+        AaHomeDisplay.SetActive(false);
         CompHomeDisplay.SetActive(true);
     }
 
     public void CalcPhyloButton()
     {
-        DnaHomeDisplay.SetActive(false);
+        AaHomeDisplay.SetActive(false);
         CalcDisplay.SetActive(true);
         ShowCorrectPhylo();
     }
@@ -48,7 +48,7 @@ public class DnaPhyloScripts : MonoBehaviour
     public void BackButtonCalc() //back to computer home
     {
         CalcDisplay.SetActive(false);
-        DnaHomeDisplay.SetActive(true);
+        AaHomeDisplay.SetActive(true);
     }
 
     public void CompleteModule()
@@ -113,10 +113,12 @@ public class DnaPhyloScripts : MonoBehaviour
         }
     }
 
+
     public void HandleInputDataset(int val)
     {
         dataSelect = val;
     }
+
 
     public void HandleInputAlg(int val)
     {
