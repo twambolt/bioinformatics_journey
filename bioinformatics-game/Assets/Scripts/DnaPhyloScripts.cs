@@ -14,8 +14,6 @@ public class DnaPhyloScripts : MonoBehaviour
     public GameObject MaxPhylo;
     public GameObject ParsePhylo;
 
-    //public GameObject currentPhylo;
-
     bool[] viewed = new bool[3];
 
     public int dataSelect;

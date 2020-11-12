@@ -9,7 +9,14 @@ public class AAPhyloScripts : MonoBehaviour
     public GameObject CompHomeDisplay;
     public GameObject CalcDisplay;
     public ComputerController compController;
-    public TextMeshProUGUI test;
+
+    public GameObject AH_Dist_Phylo;
+    public GameObject AH_Max_Phylo;
+    public GameObject AH_Pers_Phylo;
+    public GameObject KC_Dist_Phylo;
+    public GameObject KC_Max_Phylo;
+    public GameObject KC_Pers_Phylo;
+
 
     bool[] viewed = new bool[6];
 
@@ -49,6 +56,13 @@ public class AAPhyloScripts : MonoBehaviour
     {
         CalcDisplay.SetActive(false);
         AaHomeDisplay.SetActive(true);
+
+        AH_Dist_Phylo.SetActive(false);
+        AH_Max_Phylo.SetActive(false);
+        AH_Pers_Phylo.SetActive(false);
+        KC_Dist_Phylo.SetActive(false);
+        KC_Max_Phylo.SetActive(false);
+        KC_Pers_Phylo.SetActive(false);
     }
 
     public void CompleteModule()
@@ -64,49 +78,49 @@ public class AAPhyloScripts : MonoBehaviour
     {
         if (dataSelect == 0 && algSelect == 0)
         {
-            test.text = "Phylo 0";
+            AH_Dist_Phylo.SetActive(true);
             viewed[0] = true;
             return;
         }
 
         if (dataSelect == 0 && algSelect == 1)
         {
-            test.text = "Phylo 1";
+            AH_Max_Phylo.SetActive(true);
             viewed[1] = true;
             return;
         }
 
         if (dataSelect == 0 && algSelect == 2)
         {
-            test.text = "Phylo 2";
+            AH_Pers_Phylo.SetActive(true);
             viewed[2] = true;
             return;
         }
 
         if (dataSelect == 1 && algSelect == 0)
         {
-            test.text = "Phylo 3";
+            KC_Dist_Phylo.SetActive(true);
             viewed[3] = true;
             return;
         }
 
         if (dataSelect == 1 && algSelect == 1)
         {
-            test.text = "Phylo 4";
+            KC_Max_Phylo.SetActive(true);
             viewed[4] = true;
             return;
         }
 
         if (dataSelect == 1 && algSelect == 2)
         {
-            test.text = "Phylo 5";
+            KC_Pers_Phylo.SetActive(true);
             viewed[5] = true;
             return;
         }
 
         else
         {
-            test.text = "error";
+            Debug.Log("Error");
             Debug.Log(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             print(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             return;
