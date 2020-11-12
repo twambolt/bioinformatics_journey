@@ -200,7 +200,10 @@ MonoBehaviour:
   CompHomeDisplay: {fileID: 0}
   CalcDisplay: {fileID: 0}
   compController: {fileID: 9076276990646680424}
-  test: {fileID: 0}
+  DistPhylo: {fileID: 0}
+  MaxPhylo: {fileID: 0}
+  ParsePhylo: {fileID: 0}
+  currentPhylo: {fileID: 0}
   dataSelect: 0
   algSelect: 0
 --- !u!114 &4170800503720781006

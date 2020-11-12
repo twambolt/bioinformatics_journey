@@ -9,9 +9,14 @@ public class DnaPhyloScripts : MonoBehaviour
     public GameObject CompHomeDisplay;
     public GameObject CalcDisplay;
     public ComputerController compController;
-    public TextMeshProUGUI test;
 
-    bool[] viewed = new bool[6];
+    public GameObject DistPhylo;
+    public GameObject MaxPhylo;
+    public GameObject ParsePhylo;
+
+    //public GameObject currentPhylo;
+
+    bool[] viewed = new bool[3];
 
     public int dataSelect;
     public int algSelect;
@@ -23,13 +28,9 @@ public class DnaPhyloScripts : MonoBehaviour
     {
         algSelect = 0;
         dataSelect = 0;
-
         viewed[0] = false;
         viewed[1] = false;
         viewed[2] = false;
-        viewed[3] = false;
-        viewed[4] = false;
-        viewed[5] = false;
     }
 
     public void BackButtonDNAHome() //back to computer home
@@ -45,14 +46,21 @@ public class DnaPhyloScripts : MonoBehaviour
         ShowCorrectPhylo();
     }
 
-    public void BackButtonCalc() //back to computer home
+    public void BackButtonCalc() //back to DNA home
     {
         CalcDisplay.SetActive(false);
         DnaHomeDisplay.SetActive(true);
+
+        DistPhylo.SetActive(false);
+        MaxPhylo.SetActive(false);
+        ParsePhylo.SetActive(false);
     }
 
     public void CompleteModule()
     {
+        DistPhylo.SetActive(false);
+        MaxPhylo.SetActive(false);
+        ParsePhylo.SetActive(false);
         CalcDisplay.SetActive(false);
         CompHomeDisplay.SetActive(true);
         compController.completed[1] = true;
@@ -64,49 +72,28 @@ public class DnaPhyloScripts : MonoBehaviour
     {
         if (dataSelect == 0 && algSelect == 0)
         {
-            test.text = "Phylo 0";
+            DistPhylo.SetActive(true);
             viewed[0] = true;
             return;
         }
 
         if (dataSelect == 0 && algSelect == 1)
         {
-            test.text = "Phylo 1";
+            MaxPhylo.SetActive(true);
             viewed[1] = true;
             return;
         }
 
         if (dataSelect == 0 && algSelect == 2)
         {
-            test.text = "Phylo 2";
+            ParsePhylo.SetActive(true);
             viewed[2] = true;
-            return;
-        }
-
-        if (dataSelect == 1 && algSelect == 0)
-        {
-            test.text = "Phylo 3";
-            viewed[3] = true;
-            return;
-        }
-
-        if (dataSelect == 1 && algSelect == 1)
-        {
-            test.text = "Phylo 4";
-            viewed[4] = true;
-            return;
-        }
-
-        if (dataSelect == 1 && algSelect == 2)
-        {
-            test.text = "Phylo 5";
-            viewed[5] = true;
             return;
         }
 
         else
         {
-            test.text = "error";
+            Debug.Log("Error");
             Debug.Log(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             print(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             return;
