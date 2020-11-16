@@ -1015,7 +1015,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 2.938736e-39, y: 0, z: 0, w: 1.83672e-40}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1026,13 +1026,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 196029222}
-  m_LocalRotation: {x: 0.58801836, y: -0.20533493, z: 0.157559, w: 0.7663205}
-  m_LocalPosition: {x: 127, y: 264, z: -118.93}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 127, y: 264, z: -124.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 75, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &204857173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,26 +1459,6 @@ PrefabInstance:
       propertyPath: AAPhyloHome
       value: 
       objectReference: {fileID: 995463372}
-    - target: {fileID: 7820962181133990505, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181133990505, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181133990505, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181133990505, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -50
-      objectReference: {fileID: 0}
     - target: {fileID: 7820962181518618801, guid: 9a1c53242ca7c45908b683cbe7d92353,
         type: 3}
       propertyPath: MorphPhyloDisplayHome
@@ -1494,26 +1474,6 @@ PrefabInstance:
       propertyPath: AAPhyloHome
       value: 
       objectReference: {fileID: 995463372}
-    - target: {fileID: 7820962181518618806, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181518618806, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181518618806, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 580
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962181518618806, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -50
-      objectReference: {fileID: 0}
     - target: {fileID: 7820962181882109844, guid: 9a1c53242ca7c45908b683cbe7d92353,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1624,11 +1584,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: ComputerUI Home
       objectReference: {fileID: 0}
-    - target: {fileID: 7820962181882109845, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7820962182537174024, guid: 9a1c53242ca7c45908b683cbe7d92353,
         type: 3}
       propertyPath: MorphPhyloDisplayHome
@@ -1644,26 +1599,6 @@ PrefabInstance:
       propertyPath: AAPhyloHome
       value: 
       objectReference: {fileID: 995463372}
-    - target: {fileID: 7820962182537174025, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962182537174025, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962182537174025, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 305
-      objectReference: {fileID: 0}
-    - target: {fileID: 7820962182537174025, guid: 9a1c53242ca7c45908b683cbe7d92353,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -50
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a1c53242ca7c45908b683cbe7d92353, type: 3}
 --- !u!1001 &263513883
@@ -2179,6 +2114,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Journal
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814686269291645947, guid: 60ac5eaca5cad4816923a2c6d492f0c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ac5eaca5cad4816923a2c6d492f0c5, type: 3}
@@ -4432,11 +4372,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1282705628}
-    - target: {fileID: 8004401709438809857, guid: 1e10c3e3cbbf04cdc94cbba991acfd61,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HandleInputDataset
       objectReference: {fileID: 0}
     - target: {fileID: 8004401710508426682, guid: 1e10c3e3cbbf04cdc94cbba991acfd61,
         type: 3}
@@ -4557,11 +4492,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1282705628}
-    - target: {fileID: 8004401710957623390, guid: 1e10c3e3cbbf04cdc94cbba991acfd61,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HandleInputAlg
       objectReference: {fileID: 0}
     - target: {fileID: 8004401710987988283, guid: 1e10c3e3cbbf04cdc94cbba991acfd61,
         type: 3}
@@ -6998,11 +6928,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1282705627}
-    - target: {fileID: 307601383556442369, guid: 6bf10413011f148cc845bffe4495994a,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HandleInputAlg
       objectReference: {fileID: 0}
     - target: {fileID: 307601383719213724, guid: 6bf10413011f148cc845bffe4495994a,
         type: 3}
@@ -7134,11 +7059,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1282705627}
-    - target: {fileID: 307601384492625868, guid: 6bf10413011f148cc845bffe4495994a,
-        type: 3}
-      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: HandleInputDataset
       objectReference: {fileID: 0}
     - target: {fileID: 307601384737995433, guid: 6bf10413011f148cc845bffe4495994a,
         type: 3}
@@ -8707,13 +8627,7 @@ PrefabInstance:
     - target: {fileID: 7773960137164151702, guid: 7e6b417c66f3247c6a1ff048fa1c2dfe,
         type: 3}
       propertyPath: m_text
-      value: 'This phylogenetic tree is one example of the possible phylogenies you
-        could construct from the character table provided. You can consider the likelihood
-        of this phylogenetic tree being accurate by considering how parsimonious this
-        tree is, or how many character state transitions needed to occur in order
-        to construct this relation. The tree with the least amount of character state
-        transitions is considered the most parsimonious and is one way of comparing
-        phylogenetic trees. '
+      value: FIX
       objectReference: {fileID: 0}
     - target: {fileID: 7773960137164151702, guid: 7e6b417c66f3247c6a1ff048fa1c2dfe,
         type: 3}
@@ -9087,11 +9001,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DNACalcDisplay
       objectReference: {fileID: 0}
-    - target: {fileID: 3685132238797028614, guid: 7b7ed9e55570c4fc89876023d3898eb9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3685132239311395773, guid: 7b7ed9e55570c4fc89876023d3898eb9,
         type: 3}
       propertyPath: DnaHomeDisplay
@@ -9101,17 +9010,6 @@ PrefabInstance:
         type: 3}
       propertyPath: compController
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3685132239458202735, guid: 7b7ed9e55570c4fc89876023d3898eb9,
-        type: 3}
-      propertyPath: m_text
-      value: This tree compares the ten species based upon their corresponding Kappa
-        Casein amino acid sequences. Kappa Casein is a gene that is important for
-        the production of milk and is only present in mammals that produce milk. Species
-        that are branched off of the same node share the most similar sequence, which
-        suggests that they are closely related and share a common ancestor. Of the
-        parsimony based phylogenies, the relationships observed here are the most
-        accurate.
       objectReference: {fileID: 0}
     - target: {fileID: 3685132239542451056, guid: 7b7ed9e55570c4fc89876023d3898eb9,
         type: 3}
@@ -17088,7 +16986,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.001
   walkZone: 5
-  camRig: {fileID: 0}
   debug: 1
   huntingZone: 5
   layerFlock:
@@ -32233,7 +32130,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.001
   walkZone: 5
-  camRig: {fileID: 0}
   debug: 1
   huntingZone: 5
   layerFlock:
