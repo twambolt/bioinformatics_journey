@@ -253,9 +253,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40079260bda69f14c80332a04d1632a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerCamera: {fileID: 0}
+  anim: {fileID: 0}
   movementSpeed: 5
   jumpForce: 300
   timeBeforeNextJump: 1.2
+  canMove: 0
+  isOccupied: 0
 --- !u!1 &6337302538923057559
 GameObject:
   m_ObjectHideFlags: 0
