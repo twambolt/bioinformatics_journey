@@ -19,6 +19,8 @@ public class ComputerController : MonoBehaviour
     public bool inComputerRange;
     public GameObject[] computerPages;
 
+    public GameManager gameManager;
+
     public bool[] completed = new bool[4];
 
     public int dataSelect;
@@ -52,7 +54,7 @@ public class ComputerController : MonoBehaviour
 
     void StartComputer()
     {
-        if (inComputerRange && Input.GetKeyDown("f"))
+        if (inComputerRange && Input.GetKeyDown("f") && gameManager.numAnimalsFound == 12)
         {
             player.isOccupied = true;
             player.canMove = false;

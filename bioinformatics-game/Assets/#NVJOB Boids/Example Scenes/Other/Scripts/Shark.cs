@@ -21,13 +21,13 @@ public class Shark : MonoBehaviour
 
 
     [Header("General Settings")]
-    public float speed = 5;
-    public float walkZone = 100;
+    public float speed = 0.001f;
+    public float walkZone = 3;
     //public Transform camRig;
     public bool debug;
 
     [Header("Hunting Settings")]
-    public float huntingZone = 50;
+    public float huntingZone = 3;
     public LayerMask layerFlock;
     public Material sharkMaterial;
 
@@ -133,7 +133,7 @@ public class Shark : MonoBehaviour
     //{
     //    //--------------
 
-    //    //camRig.position = thisTransform.position;
+    //    camRig.position = thisTransform.position;
 
     //    //--------------
     //}

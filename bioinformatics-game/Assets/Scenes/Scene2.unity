@@ -8114,6 +8114,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Journal
       objectReference: {fileID: 0}
+    - target: {fileID: 7814686269291645947, guid: 60ac5eaca5cad4816923a2c6d492f0c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 60ac5eaca5cad4816923a2c6d492f0c5, type: 3}
 --- !u!1001 &7820962182540293805
