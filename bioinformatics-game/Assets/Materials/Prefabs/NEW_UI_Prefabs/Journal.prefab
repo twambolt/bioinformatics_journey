@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686269288576291}
   - component: {fileID: 7814686269288576317}
-  - component: {fileID: 7814686269288576316}
+  - component: {fileID: 7006434214795147429}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -45,7 +45,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686269288576290}
   m_CullTransparentMesh: 0
---- !u!114 &7814686269288576316
+--- !u!114 &7006434214795147429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,7 +54,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686269288576290}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -63,16 +63,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 5ac2cd92ce8144ca8ae6f68638b1ef3c, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686269291645947
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +166,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686269306886254}
   - component: {fileID: 7814686269306886248}
-  - component: {fileID: 7814686269306886255}
+  - component: {fileID: 1294882322705492680}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -204,7 +201,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686269306886253}
   m_CullTransparentMesh: 0
---- !u!114 &7814686269306886255
+--- !u!114 &1294882322705492680
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -213,7 +210,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686269306886253}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -222,16 +219,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 303ca588a90d84255b36a2e51a2642fd, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686269396930745
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,12 +393,12 @@ GameObject:
   - component: {fileID: 7814686269535026967}
   - component: {fileID: 7814686269535026966}
   m_Layer: 5
-  m_Name: Animal JE (10)
+  m_Name: Zebrafish JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686269535026965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -422,7 +416,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -86.466}
+  m_AnchoredPosition: {x: 127.999954, y: -86.466}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686269535026967
@@ -451,7 +445,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Animal 10 description
+  m_text: "Zebrafish (Danio rerio): \nPresence of fins, Aquatic, Scales, Omnivore,
+    Eyes on sides of head\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -479,13 +474,13 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -520,12 +515,12 @@ MonoBehaviour:
   m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686269535026966}
-    characterCount: 21
+    characterCount: 93
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 15
+    wordCount: 14
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -553,7 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686269548751542}
   - component: {fileID: 7814686269548751536}
-  - component: {fileID: 7814686269548751543}
+  - component: {fileID: 2514488401565891333}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -588,7 +583,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686269548751541}
   m_CullTransparentMesh: 0
---- !u!114 &7814686269548751543
+--- !u!114 &2514488401565891333
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -597,7 +592,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686269548751541}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -606,16 +601,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: b38de8ef9e8f2411092132819651420d, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686269656408963
 GameObject:
   m_ObjectHideFlags: 0
@@ -628,12 +620,12 @@ GameObject:
   - component: {fileID: 7814686269656408990}
   - component: {fileID: 7814686269656408989}
   m_Layer: 5
-  m_Name: Animal JE
+  m_Name: Giraffe JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686269656408988
 RectTransform:
   m_ObjectHideFlags: 0
@@ -787,12 +779,12 @@ GameObject:
   - component: {fileID: 7814686269724051289}
   - component: {fileID: 7814686269724051288}
   m_Layer: 5
-  m_Name: Animal JE (8)
+  m_Name: Whale JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686269724051295
 RectTransform:
   m_ObjectHideFlags: 0
@@ -810,7 +802,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: 26.033}
+  m_AnchoredPosition: {x: 127.999954, y: 22.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686269724051289
@@ -841,8 +833,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Gray Whale (Eschrichtius robustus):
 
-    Terrestrial , Aquatic, Mammary glands, Carnivores, Eyes on sides of head (panoramic
-    vision)
+    Aquatic, Mammary glands, Omnivores, Eyes on sides of head (panoramic vision)
 
 '
   m_isRightToLeft: 0
@@ -889,7 +880,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 109
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -913,12 +904,12 @@ MonoBehaviour:
   m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686269724051288}
-    characterCount: 128
+    characterCount: 113
     spriteCount: 0
-    spaceCount: 17
-    wordCount: 16
+    spaceCount: 15
+    wordCount: 15
     linkCount: 0
-    lineCount: 4
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -948,12 +939,12 @@ GameObject:
   - component: {fileID: 7814686269760077713}
   - component: {fileID: 7814686269760077712}
   m_Layer: 5
-  m_Name: Animal JE (1)
+  m_Name: Hippo JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686269760077719
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1106,7 +1097,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686269779088669}
   - component: {fileID: 7814686269779088671}
-  - component: {fileID: 7814686269779088670}
+  - component: {fileID: 4726478068405466802}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1141,7 +1132,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686269779088668}
   m_CullTransparentMesh: 0
---- !u!114 &7814686269779088670
+--- !u!114 &4726478068405466802
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1150,7 +1141,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686269779088668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1159,16 +1150,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: a35ddf5ccbf6d47d19e6d08bb88c878e, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686269838782423
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,7 +1167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686269838782416}
   - component: {fileID: 7814686269838782418}
-  - component: {fileID: 7814686269838782417}
+  - component: {fileID: 7181093238183565505}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1214,7 +1202,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686269838782423}
   m_CullTransparentMesh: 0
---- !u!114 &7814686269838782417
+--- !u!114 &7181093238183565505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1223,7 +1211,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686269838782423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1232,16 +1220,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 6b33f10e7578e4b8f977763a2113b1db, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270025718366
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,7 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270025718367}
   - component: {fileID: 7814686270025718361}
-  - component: {fileID: 7814686270025718360}
+  - component: {fileID: 448919626500948038}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1287,7 +1272,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270025718366}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270025718360
+--- !u!114 &448919626500948038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1296,7 +1281,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270025718366}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1305,16 +1290,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 246458ace79334aa18b340ea31895bb2, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270205360379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,7 +1307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270205360372}
   - component: {fileID: 7814686270205360374}
-  - component: {fileID: 7814686270205360373}
+  - component: {fileID: 9119392435622468053}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -1360,7 +1342,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270205360379}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270205360373
+--- !u!114 &9119392435622468053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1369,7 +1351,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270205360379}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1378,16 +1360,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: fa6545845b86f46d3bc39799949c8c3c, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270214873470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1400,12 +1379,12 @@ GameObject:
   - component: {fileID: 7814686270214873465}
   - component: {fileID: 7814686270214873464}
   m_Layer: 5
-  m_Name: Animal JE (5)
+  m_Name: Zebra JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270214873471
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1557,12 +1536,12 @@ GameObject:
   - component: {fileID: 7814686270323314738}
   - component: {fileID: 7814686270323314737}
   m_Layer: 5
-  m_Name: Animal JE (3)
+  m_Name: Peccary JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270323314736
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1656,7 +1635,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 91
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1677,7 +1656,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
+  m_margin: {x: 60.02596, y: -0.61216486, z: -154.69162, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686270323314737}
     characterCount: 121
@@ -1685,7 +1664,7 @@ MonoBehaviour:
     spaceCount: 14
     wordCount: 15
     linkCount: 0
-    lineCount: 4
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1715,12 +1694,12 @@ GameObject:
   - component: {fileID: 7814686270374330105}
   - component: {fileID: 7814686270374330104}
   m_Layer: 5
-  m_Name: Animal JE (6)
+  m_Name: Shark JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270374330111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1738,7 +1717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174.1, y: 142.13}
+  m_AnchoredPosition: {x: 128.09996, y: 142.13}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686270374330105
@@ -1872,12 +1851,12 @@ GameObject:
   - component: {fileID: 7814686270391448629}
   - component: {fileID: 7814686270391448628}
   m_Layer: 5
-  m_Name: Animal JE (2)
+  m_Name: Horse JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270391448635
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2030,7 +2009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270504267034}
   - component: {fileID: 7814686270504267028}
-  - component: {fileID: 7814686270504267035}
+  - component: {fileID: 8044179367746062191}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2065,7 +2044,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270504267033}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270504267035
+--- !u!114 &8044179367746062191
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2074,7 +2053,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270504267033}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2083,16 +2062,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 7ee8c03952fc04a78aa1f4409210c0fa, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270606593329
 GameObject:
   m_ObjectHideFlags: 0
@@ -2103,7 +2079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270606593330}
   - component: {fileID: 7814686270606593356}
-  - component: {fileID: 7814686270606593331}
+  - component: {fileID: 4331932556958189121}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2138,7 +2114,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270606593329}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270606593331
+--- !u!114 &4331932556958189121
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2147,7 +2123,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270606593329}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2156,16 +2132,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 1e805ec78ceb0438da09061677a1059f, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270661121414
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,7 +2149,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270661121415}
   - component: {fileID: 7814686270661121409}
-  - component: {fileID: 7814686270661121408}
+  - component: {fileID: 5107629153740734768}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2211,7 +2184,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270661121414}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270661121408
+--- !u!114 &5107629153740734768
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2220,7 +2193,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270661121414}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2229,16 +2202,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: bb973dbec6d2d410e9a7b999b749ec8e, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270676700095
 GameObject:
   m_ObjectHideFlags: 0
@@ -2251,12 +2221,12 @@ GameObject:
   - component: {fileID: 7814686270676700090}
   - component: {fileID: 7814686270676700089}
   m_Layer: 5
-  m_Name: Animal JE (4)
+  m_Name: Camel JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270676700088
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2409,7 +2379,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270725162795}
   - component: {fileID: 7814686270725162789}
-  - component: {fileID: 7814686270725162788}
+  - component: {fileID: 6069781843473042714}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2444,7 +2414,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270725162794}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270725162788
+--- !u!114 &6069781843473042714
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2453,7 +2423,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270725162794}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2462,16 +2432,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: 8f7fea741f82b4992ba90926bf479527, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686270838591762
 GameObject:
   m_ObjectHideFlags: 0
@@ -2484,12 +2451,12 @@ GameObject:
   - component: {fileID: 7814686270838591789}
   - component: {fileID: 7814686270838591788}
   m_Layer: 5
-  m_Name: Animal JE (9)
+  m_Name: Elephant JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686270838591763
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2507,7 +2474,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -31.566}
+  m_AnchoredPosition: {x: 127.999954, y: -31.566}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686270838591789
@@ -2536,7 +2503,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Animal 9 description
+  m_text: 'African Elephant (Loxodonta africana):
+
+    Terrestrial, Mammary gland, Heribivore, Eyes on sides of head (panoramic vision)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2564,13 +2533,13 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2605,12 +2574,12 @@ MonoBehaviour:
   m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686270838591788}
-    characterCount: 20
+    characterCount: 119
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 14
+    wordCount: 15
     linkCount: 0
-    lineCount: 1
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2638,7 +2607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7814686270920007834}
   - component: {fileID: 7814686270920007828}
-  - component: {fileID: 7814686270920007835}
+  - component: {fileID: 2407129003308364283}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -2673,7 +2642,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7814686270920007833}
   m_CullTransparentMesh: 0
---- !u!114 &7814686270920007835
+--- !u!114 &2407129003308364283
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2682,7 +2651,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7814686270920007833}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2691,16 +2660,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_Texture: {fileID: 2800000, guid: a90244b36deb44b9bbaf979d40642be2, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
 --- !u!1 &7814686271272147254
 GameObject:
   m_ObjectHideFlags: 0
@@ -2713,12 +2679,12 @@ GameObject:
   - component: {fileID: 7814686271272147249}
   - component: {fileID: 7814686271272147248}
   m_Layer: 5
-  m_Name: Animal JE (7)
+  m_Name: Deer JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686271272147255
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2736,7 +2702,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: 83.632}
+  m_AnchoredPosition: {x: 127.999954, y: 83.632}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686271272147249
@@ -2811,7 +2777,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 95
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2832,7 +2798,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
+  m_margin: {x: 60.02596, y: -0.61216486, z: -178.2665, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686271272147248}
     characterCount: 146
@@ -2840,7 +2806,7 @@ MonoBehaviour:
     spaceCount: 18
     wordCount: 18
     linkCount: 0
-    lineCount: 5
+    lineCount: 3
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -2870,12 +2836,12 @@ GameObject:
   - component: {fileID: 7814686271284142509}
   - component: {fileID: 7814686271284142508}
   m_Layer: 5
-  m_Name: Animal JE (11)
+  m_Name: Manatee JE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7814686271284142483
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2893,7 +2859,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 174, y: -142.27}
+  m_AnchoredPosition: {x: 128, y: -142.27}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7814686271284142509
@@ -2922,7 +2888,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Animal 11 description
+  m_text: 'Florida Manatee (Trichechus manatus latirostris):
+
+    Aquatic, Presence of Flippers, Whiskers, Mammary gland, Eyes on sides of head
+    (panoramic vision)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2950,13 +2919,13 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_textAlignment: 257
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2967,7 +2936,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 128
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -2988,15 +2957,15 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 60.02596, y: -0.61216486, z: -113.44139, w: -0.89178336}
+  m_margin: {x: 60.02596, y: -0.61216486, z: -148.79866, w: -0.89178336}
   m_textInfo:
     textComponent: {fileID: 7814686271284142508}
-    characterCount: 21
+    characterCount: 146
     spriteCount: 0
-    spaceCount: 2
-    wordCount: 3
+    spaceCount: 18
+    wordCount: 19
     linkCount: 0
-    lineCount: 1
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
