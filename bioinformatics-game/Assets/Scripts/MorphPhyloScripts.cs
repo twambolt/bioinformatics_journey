@@ -59,6 +59,7 @@ public class MorphPhyloScripts : MonoBehaviour
         compController.completed[0] = true;
         HypMorphDisplay.SetActive(false);
         CompHomeDisplay.SetActive(true);
+        compController.RecalcCompleted();
     }
 
 

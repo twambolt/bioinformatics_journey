@@ -14,7 +14,9 @@ public class DnaPhyloScripts : MonoBehaviour
     public GameObject MaxPhylo;
     public GameObject ParsePhylo;
 
-    bool[] viewed = new bool[3];
+    public GameObject completeModuleButton;
+
+    public bool[] viewed = new bool[3];
 
     public int dataSelect;
     public int algSelect;
@@ -61,10 +63,24 @@ public class DnaPhyloScripts : MonoBehaviour
         ParsePhylo.SetActive(false);
         CalcDisplay.SetActive(false);
         CompHomeDisplay.SetActive(true);
-        compController.completed[1] = true;
+        compController.completed[2] = true;
+        compController.RecalcCompleted();
     }
 
+    public void ModuleProgress()
+    {
+        int count = 0;
+        for (int i = 0; i < viewed.Length; i++)
+        {
+            if (viewed[i])
+                count++;
+        }
+        if (count == 3)
+        {
+            completeModuleButton.SetActive(true);
+        }
 
+    }
 
     public void ShowCorrectPhylo()
     {
@@ -72,21 +88,16 @@ public class DnaPhyloScripts : MonoBehaviour
         {
             DistPhylo.SetActive(true);
             viewed[0] = true;
-            return;
         }
-
-        if (dataSelect == 0 && algSelect == 1)
+        else if (dataSelect == 0 && algSelect == 1)
         {
             MaxPhylo.SetActive(true);
             viewed[1] = true;
-            return;
         }
-
-        if (dataSelect == 0 && algSelect == 2)
+        else if (dataSelect == 0 && algSelect == 2)
         {
             ParsePhylo.SetActive(true);
             viewed[2] = true;
-            return;
         }
 
         else
@@ -94,8 +105,8 @@ public class DnaPhyloScripts : MonoBehaviour
             Debug.Log("Error");
             Debug.Log(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             print(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
-            return;
         }
+        ModuleProgress();
     }
 
     public void HandleInputDataset(int val)

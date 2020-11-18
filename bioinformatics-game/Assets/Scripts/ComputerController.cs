@@ -14,6 +14,10 @@ public class ComputerController : MonoBehaviour
     public GameObject MorphPhyloDisplayHome;
     public GameObject BuildMorphPhyloDisplay;
     public GameObject HypMorphDisplay;
+    public GameObject QuizHome;
+
+    public GameObject QuizButton;
+    public GameObject FinishText;
 
 
     public bool inComputerRange;
@@ -22,7 +26,7 @@ public class ComputerController : MonoBehaviour
     public GameManager gameManager;
 
     public bool[] completed = new bool[4];
-
+    private bool done;
     public int dataSelect;
     public int algSelect;
 
@@ -30,10 +34,9 @@ public class ComputerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
         dataSelect = 0;
         algSelect = 0;
-
+        done = false;
         inComputerRange = false;
         computerPages = GameObject.FindGameObjectsWithTag("CompUI");
         completed[0] = false; // Build Morph
@@ -65,15 +68,36 @@ public class ComputerController : MonoBehaviour
 
     void QuitComputer()
     {
-        if (inComputerRange && Input.GetKeyDown("escape"))
+        if (inComputerRange && Input.GetKeyDown("escape") && done)
         {
             foreach (GameObject page in computerPages)
                 page.SetActive(false); // not working 100%
 
-            player.isOccupied = false;
+            //player.isOccupied = false;
             player.canMove = true;
             computerHome.SetActive(false);
             playerUI.SetActive(true);
+        }
+    }
+
+    public void RecalcCompleted()
+    {
+        int count = 0;
+        for (int i = 0; i < completed.Length; i++)
+        {
+            if (completed[i])
+            {
+                count++;
+            }
+        }
+        if (count == 3)
+        {
+            QuizButton.SetActive(true);
+        }
+        if (count == 4)
+        {
+            FinishText.SetActive(true);
+            done = true;
         }
     }
 
@@ -89,7 +113,6 @@ public class ComputerController : MonoBehaviour
         interactTip.SetActive(false);
         inComputerRange = false;
     }
-
 
 
     public void HandleDataChange(int value)

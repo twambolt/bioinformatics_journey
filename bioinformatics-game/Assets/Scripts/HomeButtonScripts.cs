@@ -10,7 +10,8 @@ public class HomeButtonScripts : MonoBehaviour
     public GameObject MorphPhyloDisplayHome;
     public GameObject DNAPhyloHome;
     public GameObject AAPhyloHome;
-
+    public GameObject QuizHome;
+    public QuizControllerScripts quizController;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +41,13 @@ public class HomeButtonScripts : MonoBehaviour
     {
         computerHome.SetActive(false);
         AAPhyloHome.SetActive(true);
+    }
+
+    public void QuizButton()
+    {
+        computerHome.SetActive(false);
+        quizController.Reset();
+        QuizHome.SetActive(true);
     }
 
 }

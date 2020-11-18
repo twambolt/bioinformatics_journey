@@ -49,8 +49,6 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
-
     public void RecalcFoundAnimals()
     {
         int count = 0;
