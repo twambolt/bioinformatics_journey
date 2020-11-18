@@ -21,7 +21,6 @@ public class AnimalInteraction : MonoBehaviour
     void Update()
     {
         CollectSample();
-        ProfessorCheatCodes();
     }
 
     public void CollectSample()
@@ -30,18 +29,6 @@ public class AnimalInteraction : MonoBehaviour
         {
             targetJE.SetActive(true);
             UpdateAnimalList();
-        }
-    }
-
-    public void ProfessorCheatCodes()
-    {
-        if (Input.GetKeyDown("f") && Input.GetKeyDown("escape") && Input.GetKeyDown("space"))
-        {
-            for (int i = 0; i < gameManager.animalsCollected.Length; i++)
-            {
-                gameManager.animalsCollected[i] = true;
-            }
-            gameManager.RecalcFoundAnimals();
         }
     }
 

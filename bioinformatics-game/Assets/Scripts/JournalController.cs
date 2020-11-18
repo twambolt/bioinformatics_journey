@@ -18,10 +18,10 @@ public class JournalController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown("j") && !player.isOccupied)
+        if (Input.GetKeyDown("j"))
         {
             isJournalOpen = !isJournalOpen;
-            playerUI.SetActive(!isJournalOpen);
+            //playerUI.SetActive(!isJournalOpen);
             journal.SetActive(isJournalOpen);
             player.canMove = !player.canMove;
             player.anim.SetBool("Run", player.canMove);

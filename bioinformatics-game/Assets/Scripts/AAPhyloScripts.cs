@@ -17,8 +17,10 @@ public class AAPhyloScripts : MonoBehaviour
     public GameObject KC_Max_Phylo;
     public GameObject KC_Pers_Phylo;
 
+    public GameObject completeModuleButton;
 
-    bool[] viewed = new bool[6];
+
+    public bool[] viewed = new bool[6];
 
     public int dataSelect;
     public int algSelect;
@@ -70,6 +72,22 @@ public class AAPhyloScripts : MonoBehaviour
         CalcDisplay.SetActive(false);
         CompHomeDisplay.SetActive(true);
         compController.completed[1] = true;
+        compController.RecalcCompleted();
+    }
+
+    public void ModuleProgress()
+    {
+        int count = 0;
+        for (int i = 0; i < viewed.Length; i++)
+        {
+            if (viewed[i])
+                count++;
+        }
+        if (count == 6)
+        {
+            completeModuleButton.SetActive(true);
+        }
+
     }
 
 
@@ -80,51 +98,44 @@ public class AAPhyloScripts : MonoBehaviour
         {
             AH_Dist_Phylo.SetActive(true);
             viewed[0] = true;
-            return;
         }
 
-        if (dataSelect == 0 && algSelect == 1)
+        else if (dataSelect == 0 && algSelect == 1)
         {
             AH_Max_Phylo.SetActive(true);
             viewed[1] = true;
-            return;
         }
 
-        if (dataSelect == 0 && algSelect == 2)
+        else if (dataSelect == 0 && algSelect == 2)
         {
             AH_Pers_Phylo.SetActive(true);
             viewed[2] = true;
-            return;
         }
 
-        if (dataSelect == 1 && algSelect == 0)
+        else if (dataSelect == 1 && algSelect == 0)
         {
             KC_Dist_Phylo.SetActive(true);
             viewed[3] = true;
-            return;
         }
 
-        if (dataSelect == 1 && algSelect == 1)
+        else if (dataSelect == 1 && algSelect == 1)
         {
             KC_Max_Phylo.SetActive(true);
             viewed[4] = true;
-            return;
         }
 
-        if (dataSelect == 1 && algSelect == 2)
+        else if (dataSelect == 1 && algSelect == 2)
         {
             KC_Pers_Phylo.SetActive(true);
             viewed[5] = true;
-            return;
         }
-
         else
         {
             Debug.Log("Error");
             Debug.Log(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
             print(string.Format("dataSelect: {0} algSelect: {1}", dataSelect, algSelect));
-            return;
         }
+        ModuleProgress();
     }
 
 

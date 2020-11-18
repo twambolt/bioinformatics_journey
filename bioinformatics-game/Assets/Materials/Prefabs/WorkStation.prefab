@@ -9,12 +9,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6354903024275253652}
-  - component: {fileID: 816711144574279582}
   - component: {fileID: 7231140482570738463}
+  - component: {fileID: 4477529606505701868}
+  - component: {fileID: 816711144574279582}
   - component: {fileID: 8548082372259867654}
   - component: {fileID: 5710928631391584312}
+  - component: {fileID: 234394021}
+  - component: {fileID: 4014705147271820191}
   m_Layer: 0
-  m_Name: WorkStation 1
+  m_Name: WorkStation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,9 +30,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6354903024275253653}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.01, y: 2.61, z: 5.09}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 6358909056003036759}
   - {fileID: 6350415094520573493}
@@ -41,6 +44,37 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &7231140482570738463
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354903024275253653}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 1.1432354
+  m_Height: 2.3320384
+  m_Direction: 1
+  m_Center: {x: -0.9012122, y: -0.024901152, z: -2.2628963}
+--- !u!114 &4477529606505701868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354903024275253653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f100701224b4459db4d862bad135732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  computerHome: {fileID: 0}
+  MorphPhyloDisplayHome: {fileID: 0}
+  DNAPhyloHome: {fileID: 0}
+  AAPhyloHome: {fileID: 0}
+  QuizHome: {fileID: 0}
 --- !u!114 &816711144574279582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60,25 +94,14 @@ MonoBehaviour:
   MorphPhyloDisplayHome: {fileID: 0}
   BuildMorphPhyloDisplay: {fileID: 0}
   HypMorphDisplay: {fileID: 0}
+  QuizHome: {fileID: 0}
+  QuizButton: {fileID: 0}
   inComputerRange: 0
   computerPages: []
+  gameManager: {fileID: 0}
   completed: 00000000
   dataSelect: 0
   algSelect: 0
---- !u!136 &7231140482570738463
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6354903024275253653}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  m_Radius: 1.1432354
-  m_Height: 2.3320384
-  m_Direction: 1
-  m_Center: {x: -0.9012122, y: -0.024901152, z: -2.2628963}
 --- !u!114 &8548082372259867654
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,6 +121,8 @@ MonoBehaviour:
   DistPhylo: {fileID: 0}
   MaxPhylo: {fileID: 0}
   ParsePhylo: {fileID: 0}
+  completeModuleButton: {fileID: 0}
+  viewed: 000000
   dataSelect: 0
   algSelect: 0
 --- !u!114 &5710928631391584312
@@ -122,8 +147,67 @@ MonoBehaviour:
   KC_Dist_Phylo: {fileID: 0}
   KC_Max_Phylo: {fileID: 0}
   KC_Pers_Phylo: {fileID: 0}
+  completeModuleButton: {fileID: 0}
+  viewed: 000000000000
   dataSelect: 0
   algSelect: 0
+--- !u!114 &234394021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354903024275253653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6ecbd011035400080b85c94d3de55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentQuestion: 0
+  score: 0
+  nextButton: {fileID: 0}
+  submitButton: {fileID: 0}
+  scoreText: {fileID: 0}
+  Question1: {fileID: 0}
+  A1: {fileID: 0}
+  Question2: {fileID: 0}
+  A2: {fileID: 0}
+  Question3: {fileID: 0}
+  A3: {fileID: 0}
+  Question4: {fileID: 0}
+  A4: {fileID: 0}
+  Question5: {fileID: 0}
+  A5: {fileID: 0}
+  Question6: {fileID: 0}
+  A6: {fileID: 0}
+  Question7: {fileID: 0}
+  A7: {fileID: 0}
+  Question8: {fileID: 0}
+  A8: {fileID: 0}
+  Question9: {fileID: 0}
+  A9: {fileID: 0}
+  Question10: {fileID: 0}
+  A10: {fileID: 0}
+  Question11: {fileID: 0}
+  A11: {fileID: 0}
+  answerSelect: 0
+--- !u!114 &4014705147271820191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6354903024275253653}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f100701224b4459db4d862bad135732, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  computerHome: {fileID: 0}
+  MorphPhyloDisplayHome: {fileID: 0}
+  DNAPhyloHome: {fileID: 0}
+  AAPhyloHome: {fileID: 0}
+  QuizHome: {fileID: 0}
 --- !u!1 &6355846718325902823
 GameObject:
   m_ObjectHideFlags: 0
