@@ -238,7 +238,7 @@ public class QuizControllerScripts : MonoBehaviour
     }
 
 
-    public void HandleInputDataset(int val)
+    public void HandleInputAnswer(int val)
     {
         answerSelect = val;
     }

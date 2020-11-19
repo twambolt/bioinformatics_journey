@@ -218,13 +218,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 45.811893, w: 24.890543}
   m_textInfo:
     textComponent: {fileID: 307601383179331369}
-    characterCount: 0
+    characterCount: 14
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -459,13 +459,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -322.49265, w: 24.890543}
   m_textInfo:
     textComponent: {fileID: 307601383220284239}
-    characterCount: 0
+    characterCount: 54
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 3
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -1272,13 +1272,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Proin lacinia bibendum mauris, ac luctus arcu tincidunt ut. Aliquam ultrices
-    mi non blandit interdum. Praesent ultrices nisl quis faucibus malesuada. Cras
-    non auctor velit. Aenean tempor tellus sit amet arcu bibendum pharetra. Vestibulum
-    vestibulum ornare imperdiet. Morbi in nunc molestie, ullamcorper tortor vel, imperdiet
-    erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-    cubilia curae; In tincidunt sodales dolor vel congue. '
+  m_text: Similar to DNA, the sequences of amino acids can also be used to analyze
+    the relationship between species. Comparing amino acids is useful because many
+    amino acids have more than one DNA codon. Mutations in the DNA sequence do not
+    always generate different amino acids and can be silent mutations. Using amino
+    acids to compare species ignores these silent mutations and helps to limit the
+    number of false differences. The amino acid sequences were compared for the kappa-casein
+    protein and the alpha hemoglobin protein.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 381
+  m_firstOverflowCharacterIndex: 356
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1347,13 +1347,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -540.5392, w: -32.61871}
   m_textInfo:
     textComponent: {fileID: 307601383719213724}
-    characterCount: 0
+    characterCount: 519
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 83
+    wordCount: 84
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 6
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -1575,13 +1575,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 307601383844258590}
-    characterCount: 0
+    characterCount: 16
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2336,13 +2336,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 307601384189793558}
-    characterCount: 0
+    characterCount: 14
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2485,7 +2485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &307601384449627572
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2493,7 +2493,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307601384449627563}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.95, y: 0.95, z: 1}
   m_Children:
@@ -3500,13 +3500,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 35.0829, w: 24.890543}
   m_textInfo:
     textComponent: {fileID: 307601384902124516}
-    characterCount: 0
+    characterCount: 16
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0

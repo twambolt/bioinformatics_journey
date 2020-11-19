@@ -876,7 +876,6 @@ GameObject:
   - component: {fileID: 6380217789392918904}
   - component: {fileID: 6380217789392918907}
   - component: {fileID: 6380217789392918906}
-  - component: {fileID: 6380217789392918909}
   m_Layer: 5
   m_Name: BuildMorphButton
   m_TagString: Untagged
@@ -983,7 +982,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6380217789392918909}
+      - m_Target: {fileID: 0}
         m_MethodName: HypMorphButton
         m_Mode: 1
         m_Arguments:
@@ -1014,23 +1013,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &6380217789392918909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6380217789392918911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd48e0993117142ba93b3fb87585a2ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MorphHomeDisplay: {fileID: 0}
-  CompHomeDisplay: {fileID: 0}
-  BuildMorphDisplay: {fileID: 6380217790951121689}
-  HypMorphDisplay: {fileID: 0}
-  compController: {fileID: 0}
 --- !u!1 &6380217789410285049
 GameObject:
   m_ObjectHideFlags: 0
@@ -1378,9 +1360,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bio stuff goes here. Lorem ipsum dolor sit amet, consectetur adipiscing
-    elit. Proin lacinia bibendum mauris, ac luctus arcu tincidunt ut. Aliquam ultrices
-    mi non blandit interdum. '
+  m_text: Utilizing the data in journal and the character table and the phylogenetic
+    tree template, construct a morphological phylogeny including all of the listed
+    animals having the shark as the outgroup. (Press "j" for journal)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1389,8 +1371,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279307271
-  m_fontColor: {r: 0.027450982, g: 0.04705883, b: 0.06666667, a: 1}
+    rgba: 4281721384
+  m_fontColor: {r: 0.15686275, g: 0.8862746, b: 0.20784315, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1449,13 +1431,13 @@ MonoBehaviour:
   m_margin: {x: 58.57171, y: 23.838467, z: -423.4006, w: -32.61871}
   m_textInfo:
     textComponent: {fileID: 6380217789507375683}
-    characterCount: 0
+    characterCount: 219
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 33
+    wordCount: 34
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 3
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2014,13 +1996,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217789765506026}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -2292,13 +2274,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -322.49265, w: 24.890543}
   m_textInfo:
     textComponent: {fileID: 6380217789782996471}
-    characterCount: 0
+    characterCount: 54
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 0
+    spaceCount: 1
+    wordCount: 3
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3067,13 +3049,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217789981145685}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -3456,7 +3438,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Texture: {fileID: 2800000, guid: ebcfbf0a666ce41ac950667f71c44569, type: 3}
+  m_Texture: {fileID: 2800000, guid: c7d382c337eb3454db6ba777352c2d8a, type: 3}
   m_UVRect:
     serializedVersion: 2
     x: 0
@@ -4982,13 +4964,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217790437903344}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -5385,13 +5367,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217790509321454}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -5736,13 +5718,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217790553261951}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -6569,7 +6551,6 @@ GameObject:
   - component: {fileID: 6380217790815736217}
   - component: {fileID: 6380217790815736216}
   - component: {fileID: 6380217790815736219}
-  - component: {fileID: 6380217790815736218}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -6676,7 +6657,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6380217790815736218}
+      - m_Target: {fileID: 0}
         m_MethodName: BackButtonBuild
         m_Mode: 1
         m_Arguments:
@@ -6707,23 +6688,6 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
---- !u!114 &6380217790815736218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6380217790815736220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd48e0993117142ba93b3fb87585a2ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MorphHomeDisplay: {fileID: 0}
-  CompHomeDisplay: {fileID: 0}
-  BuildMorphDisplay: {fileID: 6380217790951121689}
-  HypMorphDisplay: {fileID: 0}
-  compController: {fileID: 0}
 --- !u!1 &6380217790825435190
 GameObject:
   m_ObjectHideFlags: 0
@@ -6856,13 +6820,13 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6380217790825435188}
-    characterCount: 0
+    characterCount: 4
     spriteCount: 0
     spaceCount: 0
-    wordCount: 0
+    wordCount: 1
     linkCount: 0
-    lineCount: 0
-    pageCount: 0
+    lineCount: 1
+    pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
@@ -7342,7 +7306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6380217790951121684
 RectTransform:
   m_ObjectHideFlags: 0
