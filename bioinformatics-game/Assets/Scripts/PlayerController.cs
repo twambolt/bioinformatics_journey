@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
         if (movement != Vector3.zero)
         {
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(myTurnedInputs), 0.15f);
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(myTurnedInputs), 0.5f);
             anim.SetBool("Run", true);
         }
         else
