@@ -21,13 +21,13 @@ public class Shark : MonoBehaviour
 
 
     [Header("General Settings")]
-    public float speed = 0.001f;
-    public float walkZone = 3;
-    //public Transform camRig;
+    public float speed = 5;
+    public float walkZone = 100;
+    public Transform camRig;
     public bool debug;
 
     [Header("Hunting Settings")]
-    public float huntingZone = 3;
+    public float huntingZone = 50;
     public LayerMask layerFlock;
     public Material sharkMaterial;
 
@@ -66,7 +66,7 @@ public class Shark : MonoBehaviour
 
         Hunting();
         Move();
-        //CameraRig();
+        CameraRig();
         DebugPath();
 
         //--------------
@@ -129,14 +129,14 @@ public class Shark : MonoBehaviour
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-    //void CameraRig()
-    //{
-    //    //--------------
+    void CameraRig()
+    {
+        //--------------
 
-    //    camRig.position = thisTransform.position;
+        camRig.position = thisTransform.position;
 
-    //    //--------------
-    //}
+        //--------------
+    }
 
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

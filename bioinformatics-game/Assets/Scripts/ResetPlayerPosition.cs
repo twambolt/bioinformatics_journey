@@ -20,8 +20,12 @@ public class ResetPlayerPosition : MonoBehaviour
         
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        OnCollisionEnter(collision);
+    }
 
-    private void OnCollisionEnter(Collision collision)
+    void OnCollisionEnter(Collision collision)
     {
         player.transform.position = startPosition;
     }
