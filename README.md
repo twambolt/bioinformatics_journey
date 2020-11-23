@@ -5,12 +5,12 @@ This game was created for our Bioinformatic Algorithms and Applications class at
 ## Team Members
 
 ### Game Development
-Terry Wambolt
+Terry Wambolt,
 David Lutze
 
 ### Research
-Annika Dean
-Brendon Asato
+Annika Dean,
+Brendon Asato,
 Sean McNamara
 
 
