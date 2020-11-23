@@ -25,7 +25,9 @@ public class GameManager : MonoBehaviour
     public GameObject ani11;
     public GameObject ani12;
 
+    public GameObject nextButton;
 
+    public AudioFeedbackScripts audioFeedBack;
     // Start is called before the first frame update
     void Start()
     {
@@ -57,11 +59,16 @@ public class GameManager : MonoBehaviour
             if (animalsCollected[i] == true)
                 count += 1;
         }
+        if (count != numAnimalsFound)
+            audioFeedBack.PlayAnimalCollected();
         numAnimalsFound = count;
         animalProg.text = string.Format("Collect animal samples ({0}/12 found)", numAnimalsFound);
 
         if (numAnimalsFound == 12)
+        {
             animalProg.color = new Color32(0, 190, 70, 255);
+            nextButton.SetActive(true);
+        }
     }
 
     public void ProfessorCheatCodes()
