@@ -83,6 +83,7 @@ public class ComputerController : MonoBehaviour
     public void RecalcCompleted()
     {
         int count = 0;
+        gameManager.audioFeedBack.PlayModuleCompleted();
         for (int i = 0; i < completed.Length; i++)
         {
             if (completed[i])

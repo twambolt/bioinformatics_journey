@@ -41,6 +41,8 @@ public class QuizControllerScripts : MonoBehaviour
 
     public TextMeshProUGUI sample;
 
+    public AudioFeedbackScripts audioFeedback;
+
     public int answerSelect;
     private Color32 ogColor;
     
@@ -81,71 +83,131 @@ public class QuizControllerScripts : MonoBehaviour
         {
             case 1:
                 if (answerSelect == 0)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A1.color = new Color32(0, 190, 70, 255);
                 break;
             case 2:
                 if (answerSelect == 1)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A2.color = new Color32(0, 190, 70, 255);
                 break;
             case 3:
                 if (answerSelect == 0)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A3.color = new Color32(0, 190, 70, 255);
                 break;
             case 4:
-                if (answerSelect == 1)
+                if (answerSelect == 3)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A4.color = new Color32(0, 190, 70, 255);
                 break;
             case 5:
                 if (answerSelect == 1)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A5.color = new Color32(0, 190, 70, 255);
                 break;
             case 6:
-                if (answerSelect == 1)
+                if (answerSelect == 2)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A6.color = new Color32(0, 190, 70, 255);
                 break;
             case 7:
-                if (answerSelect == 1)
+                if (answerSelect == 2)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A7.color = new Color32(0, 190, 70, 255);
                 break;
             case 8:
-                if (answerSelect == 1)
+                if (answerSelect == 0)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A8.color = new Color32(0, 190, 70, 255);
                 break;
             case 9:
-                if (answerSelect == 1)
+                if (answerSelect == 2)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A9.color = new Color32(0, 190, 70, 255);
                 break;
             case 10:
-                if (answerSelect == 1)
+                if (answerSelect == 3)
+                {
                     score++;
-                // maybe add a good sound and bad sound
+                    audioFeedback.PlayCorrectAnswer();
+                }
+                else
+                {
+                    audioFeedback.PlayWrongAnswer();
+                }
                 nextButton.SetActive(true);
                 A10.color = new Color32(0, 190, 70, 255);
                 break;
