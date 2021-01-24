@@ -20,13 +20,9 @@ public class ResetPlayerPosition : MonoBehaviour
         
     }
 
-    private void OnCollisionStay(Collision collision)
-    {
-        OnCollisionEnter(collision);
-    }
-
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
         player.transform.position = startPosition;
+        Debug.Log("I've fallen and can't get up!");
     }
 }
