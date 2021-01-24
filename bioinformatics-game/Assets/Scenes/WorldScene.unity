@@ -8500,7 +8500,7 @@ PrefabInstance:
     - target: {fileID: 6337302538923490739, guid: c497bb0d426f942ffb884e2d66eadd09,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 83.37
+      value: 83.07
       objectReference: {fileID: 0}
     - target: {fileID: 6337302538923490739, guid: c497bb0d426f942ffb884e2d66eadd09,
         type: 3}
@@ -17490,7 +17490,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Collect animal sample (/12)
+  m_text: Collect animal samples (/12)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: e73a58f6e2794ae7b1b7e50b7fb811b0, type: 2}
@@ -17559,7 +17559,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: -20.23386, z: -117.17288, w: 50.055023}
   m_textInfo:
     textComponent: {fileID: 1113375554124516785}
-    characterCount: 27
+    characterCount: 28
     spriteCount: 0
     spaceCount: 3
     wordCount: 4
@@ -27728,7 +27728,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100.09999, y: -95}
+  m_AnchoredPosition: {x: 100.09999, y: -84.8}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!4 &1611874542586259753
@@ -27866,13 +27866,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Extract DNA
-
-    Extract RNA
-
-    Extract Proteins
-
-    Complete Computer Modules
+  m_text: 'Complete Computer Modules
 
     Finish Quiz'
   m_isRightToLeft: 0
@@ -27943,12 +27937,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: -14.411471, z: 0, w: -25.11142}
   m_textInfo:
     textComponent: {fileID: 2085989530556325246}
-    characterCount: 78
+    characterCount: 37
     spriteCount: 0
-    spaceCount: 10
-    wordCount: 11
+    spaceCount: 4
+    wordCount: 5
     linkCount: 0
-    lineCount: 5
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
